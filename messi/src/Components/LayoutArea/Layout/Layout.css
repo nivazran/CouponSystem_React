@@ -1,0 +1,44 @@
+/* section{
+    height:100%;
+    border: 2px solid black;
+    background-color:lightsalmon;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-columns: repeat(12,1fr);
+
+} */
+.application {
+    min-height: 100vh;
+    background-image: url('../../../Assets/Images/Messi-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* 
+header{
+    grid-column: span 12;
+    border: 2px solid black;
+    background-color: slategray;
+}
+
+aside{
+    grid-column: span 2;
+    border: 2px solid black;
+    background-color: salmon;
+}
+
+main{
+    grid-column: span 10;
+    border: 2px solid black;
+    background-color: turquoise;
+    overflow-y: auto;
+}    
+
+footer{
+    grid-column: span 12;
+    border: 2px solid black;
+    background-color: gainsboro;
+} */

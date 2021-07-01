@@ -1,0 +1,24 @@
+.Footer {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Nunito';
+    align-items: center;
+}
+
+.Footer > p{
+    color:white;
+    text-align: center;
+}
+
+p > span {
+    text-decoration: underline;
+}
+
+.links:hover{
+    opacity: 0.7;
+}
+
+a{
+}

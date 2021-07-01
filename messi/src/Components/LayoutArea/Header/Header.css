@@ -1,0 +1,35 @@
+.Header {
+	height: 100vh;
+    display: flex;
+    align-items: left;
+    color: #ffe2c2;
+}
+
+h1{
+    font-family: 'Nunito';
+    font-size: 80px;
+}
+
+.container{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.goDown{
+    color:rgb(255, 255, 255);
+    font-size: 80px !important;
+}
+
+.playerName {
+    font-size: 120px;
+    background: -webkit-linear-gradient(45deg, #9a0922 0%, #ffe2c2 25%, #04277c 35%, #ffe2c2 70%, #9a0922 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Header > img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
