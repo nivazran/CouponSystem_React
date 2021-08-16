@@ -1,0 +1,14 @@
+.LandingPage {
+	
+}
+
+LandingPage p {
+    margin-left: 20px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 150px;
+    color: black;
+}
+
+LandingPage span {
+    color: deepskyblue;
+}

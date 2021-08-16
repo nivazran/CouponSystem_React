@@ -1,0 +1,49 @@
+.Menu {
+	overflow-x: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuBox {
+    flex-direction: column;
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    margin: 20px;
+    float: left;
+    border: 2px solid white;
+    /* -webkit-mask-image: -webkit-radial-gradient(circle, white, black); */
+    -webkit-transition: all 1s ease;
+    text-align: center;
+}
+
+.MenuBox:hover {
+    /* height: 150px;
+    width: 150px; */
+    border-radius: 35%;
+}
+
+.Menu div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Menu img{
+    display: inline-block;
+}
+
+.title {
+    opacity: 0;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -ms-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.MenuBox:hover .title {
+    opacity: 100;
+}

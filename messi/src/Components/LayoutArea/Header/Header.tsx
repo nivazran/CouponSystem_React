@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import IconButton from "@material-ui/core/IconButton";
 import { Slide } from "@material-ui/core";
+//@ts-ignore
 import {Link as Scroll} from 'react-scroll';
 import Logo from "../../../Assets/Images/Messi-Logo.png"
 
@@ -13,10 +14,6 @@ function Header(): JSX.Element {
     }, [])
 
     return (
-        // <Collapse in={checked}
-        // {...(checked ? {timeout: 5000} : {})}
-        // // collapsedHeight={50}
-        // >
         <div className="Header" id="header">
             <img src={Logo} alt="" />
 			<Slide direction="down" in={checked}

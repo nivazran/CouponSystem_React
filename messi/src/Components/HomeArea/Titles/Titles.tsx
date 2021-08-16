@@ -19,7 +19,7 @@ function Total(props:TotalProps): JSX.Element {
 
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Titles Box">
             <img className="Titles BoxImage" src={TitleImg} alt="" />
             <div className="Titles BoxInformation">

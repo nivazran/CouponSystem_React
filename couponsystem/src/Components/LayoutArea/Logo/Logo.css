@@ -1,0 +1,9 @@
+.Logo {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+.Logo span {
+    color: navy;
+}

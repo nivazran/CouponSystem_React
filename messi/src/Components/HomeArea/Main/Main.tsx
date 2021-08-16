@@ -37,7 +37,7 @@ function Main(): JSX.Element {
 
                 <td>
                     {/* Props */}
-                    <Sales category="shows" percent={20} checked={checked2}/>
+                    <Sales category="shirts" percent={20} checked={checked2}/>
                     {/* <Sales percent={20}/> */}
                 </td>
             </tr>

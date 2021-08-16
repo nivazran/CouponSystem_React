@@ -7,6 +7,8 @@ import { CssBaseline } from "@material-ui/core";
 import bgImg from '../../../Assets/Images/Messi-bg.jpg'
 import "./Layout.css"
 import { useLayoutEffect, useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import Routing from "../Routing/Routing";
 
 // const useStyles = makeStyles((theme) => ({
 //     application: {
@@ -39,19 +41,22 @@ export function Layout():JSX.Element{
     // const classes = useStyles();
     return (
             <div className='application'>
-                <CssBaseline/>
-                <header>
-                    <Header/>
-                </header>
-                {/* <aside>
-                    <Menu/>
-                </aside> */}
-                <main>
-                    <Main/>
-                </main>
-                <footer>
-                    <Footer/>
-                </footer>
+                <BrowserRouter>
+                    <CssBaseline/>
+                    <header>
+                        <Header/>
+                    </header>
+                    <aside>
+                        <Menu/>
+                    </aside>
+                    <main>
+                        {/* <Main/> */}
+                        <Routing/>
+                    </main>
+                    <footer>
+                        <Footer/>
+                    </footer>
+                </BrowserRouter>
             </div>
     );
 }

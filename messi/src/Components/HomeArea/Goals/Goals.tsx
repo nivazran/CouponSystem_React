@@ -3,6 +3,7 @@ import goalsImg from '../../../Assets/Images/Messi-goals.jpg'
 import Collapse from '@material-ui/core/Collapse';
 
 
+
 interface GoalsProps {
     checked:boolean;
 }
@@ -20,7 +21,7 @@ function Goals(props: GoalsProps): JSX.Element {
 
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Goals Box">
             <img className="Goals BoxImage" src={goalsImg} alt="" />
 			<div className="Goals BoxInformation">

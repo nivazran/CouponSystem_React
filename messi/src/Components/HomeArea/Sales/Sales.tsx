@@ -11,7 +11,7 @@ interface SalesProps {
 function Sales(props:SalesProps): JSX.Element {
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Sales Box">
             <img className="Sales BoxImage" src={SaleImg} alt="" />
             <div className="Sales BoxInformation">

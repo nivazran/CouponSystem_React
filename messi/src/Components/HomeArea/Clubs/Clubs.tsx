@@ -17,7 +17,7 @@ function Clubs(props: ClubProps): JSX.Element {
     ];
     return (
         <Collapse in={props.checked}
-        {...(props.checked ? { timeout: 1000 } : {})}>
+        {...(props.checked ? { timeout: 1500 } : {})}>
         <div className="Clubs Box">
             <img className="Clubs BoxImage" src={clubsImg} alt="" />
             {/* Step 1 : Hard Coded */}
@@ -38,8 +38,8 @@ function Clubs(props: ClubProps): JSX.Element {
             {/* {teams.map(team=><span>&nbsp;{team.name}&nbsp;|</span>)} */}
 
             {/* Step 4 : Reading from an array of Objects and provide unique prop. id for React DOM */}
+            <h2>Clubs</h2>
             <ul className="Clubs BoxInformation">
-                <h2>Clubs</h2>
                 {teams.map(team =><li key={team.id}>{team.name}</li>)}
             </ul>
 
